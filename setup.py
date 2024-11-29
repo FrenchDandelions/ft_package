@@ -1,11 +1,10 @@
 from setuptools import setup
 
 setup(
-   name='foo',
-   version='1.0',
-   description='A useful module',
-   author='Man Foo',
-   author_email='foomail@foo.example',
-   packages=['foo'],  #same as name
-   install_requires=['wheel', 'bar', 'greek'], #external packages as dependencies
+   name='ft_package',
+   version='0.0.1',
+   description='A sample test package',
+   author='thole',
+   author_email='thole@student.42.fr',
+   url='https://github.com/FrenchDandelions/ft_package',
 )
